@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #272727;
+  color: #fff;
+  font-family: monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+}
+
+#timer {
+  font-size: 5rem;
+  margin: 1rem;
+  color: #fff;
+  font-family: monospace;
+}
+
+
+button {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+  font-family: monospace;
+}
+
+
+
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pomodoro Timer</h1>
+  <p id="timer">25:00</p>
+  <div id="time-btns">
+    <button style = "font-size: 12px;" id="btn-25" class="time-btn">25 mins</button>
+    <button style = "font-size: 12px;" id="btn-45" class="time-btn">45 mins</button>
+    <button style = "font-size: 12px;" id="btn-60" class="time-btn">60 mins</button>
+  </div>
+  <div>
+    <button id="start-btn">Start</button>
+    <button id="reset-btn">Reset</button>
+  </div>
+  <audio id="buzzer" src="buzzer.mp3" loop></audio>
+  <script src="pomodoro.js"></script>
+</body>
+</html>
